@@ -274,6 +274,7 @@ function WorkspaceCreateReportFieldsPage({
                                     inputID={INPUT_IDS.INITIAL_VALUE}
                                     label={translate('common.initialValue')}
                                     subtitle={translate('workspace.reportFields.listValuesInputSubtitle')}
+                                    policyID={policyID}
                                 />
                             )}
                         </View>
